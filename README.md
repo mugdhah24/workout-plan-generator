@@ -49,3 +49,22 @@ The app will open automatically in your default web browser (typically at `http:
 - `llm_generator.py`: Contains the logic for constructing the prompt and communicating with the Groq API.
 - `requirements.txt`: The Python dependencies (`streamlit`, `groq`, `python-dotenv`) required to run the project.
 - `.env`: Environment variables file containing your sensitive API keys.
+
+## Prompt Design Approach 
+
+The prompt is designed to generate a personalized and practical workout plan instead of a generic response.
+
+It specifically handles:
+
+🎯 Fitness goal — adapts the plan to the user's objective.
+🏋️ Experience level — adjusts exercise difficulty and workout intensity.
+📅 Exact number of workout days — generates exactly the number of days selected.
+🏠 Available equipment — uses only the equipment provided by the user.
+⚠️ Injuries/limitations — considers user limitations and avoids conflicting exercises.
+📋 Structured Markdown output — provides a clear day-by-day plan with exercises, sets, reps, and rest.
+🛡️ Medical disclaimer — avoids medical claims and includes a disclaimer when limitations are provided.
+🚫 Constraint enforcement — explicitly instructs the LLM to follow all user-provided constraints.
+
+This approach combines structured inputs + explicit constraints + a defined output format to produce a reliable, personalized, and usable workout plan.
+
+## Screenshots are attached within the folder.
