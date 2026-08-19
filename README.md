@@ -3,7 +3,7 @@
 An intelligent, Streamlit-based web application that acts as your personal AI trainer. It generates highly personalized weekly workout routines based on your specific goals, constraints, and available equipment using the Groq API.
 
 # Development Approach: 
-This project was developed using Antigravity Agent with vibe coding, where AI-assisted development was used for implementation, iteration, debugging, and refinement.
+This project was developed using Google's Antigravity Agent with vibe coding, where AI-assisted development was used for implementation, iteration, debugging, and refinement.
 
 ## ✨ Features
 
